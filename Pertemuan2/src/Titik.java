@@ -86,11 +86,11 @@ public class Titik {
     }
 
     Titik getRefleksiX(){
-        return new Titik (-absis, ordinat);
+        return new Titik (absis, -ordinat);
     }
 
     Titik getRefleksiY(){
-        return new Titik (absis, ordinat * -1);
+        return new Titik (-absis, ordinat);
     }
 
     //mencetak koordinat titik
