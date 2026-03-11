@@ -1,4 +1,4 @@
-public class Mtitik {
+public class MTitik {
     public static void main(String[] args) {
         Titik T1 = new Titik();
         Titik T2 = new Titik();
@@ -26,5 +26,4 @@ public class Mtitik {
         T2.setOrdinat(7);
         System.out.println(T2.getJarak(T1));
     }
-
 }
