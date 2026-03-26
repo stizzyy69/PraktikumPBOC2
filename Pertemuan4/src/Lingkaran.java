@@ -1,5 +1,6 @@
-public class Lingkaran extends BangunDatar{
+public class Lingkaran extends BangunDatar implements IResize{
     private double jari;
+
 
     public Lingkaran(){
         setJmlSisi(0);
@@ -27,5 +28,20 @@ public class Lingkaran extends BangunDatar{
     public double getKeliling(){
         return 2 * Math.PI * jari;
     }
-    
+
+    /* IResize */
+    @Override
+    public void zoomIn(){
+        jari = jari * 1.1;
+    }
+
+    @Override
+    public void zoomOut(){
+        jari = jari * 0.9;
+    }
+
+    @Override
+    public void zoom(int percent){
+        jari = jari * percent/100;
+    }
 }

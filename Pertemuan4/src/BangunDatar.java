@@ -1,4 +1,4 @@
-public class BangunDatar {
+public abstract class BangunDatar {
     protected int jmlSisi;
     protected String warna;
     protected String border;
@@ -18,6 +18,7 @@ public class BangunDatar {
     public int getJmlSisi(){
         return jmlSisi;
     }
+
 
     public void setJmlSisi(int jmlSisi){
     this.jmlSisi = jmlSisi;
@@ -47,5 +48,19 @@ public class BangunDatar {
 
     public static void printCounterBangunDatar(){
         System.out.println("Jumlah Objek Bangun Datar: " + counterBangunDatar);
+    }
+
+    /*Tambahan abstract class */
+
+    public abstract double getLuas();
+    
+    public abstract double getKeliling();
+
+    public boolean isEqualLuas(BangunDatar X){
+        return this.getLuas() == X.getLuas();
+    }
+
+    public boolean isEqualKeliling(BangunDatar X){
+        return this.getKeliling() == X.getKeliling();
     }
 }
