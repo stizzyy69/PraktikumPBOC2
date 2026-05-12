@@ -1,4 +1,3 @@
-//subclass Kucing
 public class Kucing extends Anabul {
     double bobot;
 
@@ -9,15 +8,19 @@ public class Kucing extends Anabul {
 
     @Override
     public void Gerak() {
-        System.out.println(nama + " berjalan dengan melata");
+        System.out.println(panggilan + " berjalan dengan melata");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(nama + " bersuara: meong");
+        System.out.println(panggilan + " bersuara: meong");
+    }
+
+    public double getBobot(){
+        return bobot;
     }
 
     public void printBobot(){
-        System.out.println(nama + " memiliki bobot " + bobot + "kg");
+        System.out.println(panggilan + " memiliki bobot " + bobot + "kg");
     }
 }

@@ -1,8 +1,8 @@
 // superclass
-class Anabul {
+public class Anabul {
     String nama;
 
-    Anabul(String nama) {
+    public Anabul(String nama) {
         this.nama = nama;
     }
 

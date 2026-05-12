@@ -1,4 +1,3 @@
-//subclass Anggora
 public class Anggora extends Kucing {
 
     public Anggora(String nama, double bobot) {
@@ -7,11 +6,11 @@ public class Anggora extends Kucing {
 
     @Override
     public void Gerak() {
-        System.out.println(nama + " (Anggora) berjalan dengan melata");
+        System.out.println(panggilan + " (Anggora) berjalan dengan melata");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(nama + " (Anggora) bersuara: meong");
+        System.out.println(panggilan + " (Anggora) bersuara: meong");
     }
 }

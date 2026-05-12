@@ -1,4 +1,3 @@
-//subclass Kembangtelon
 public class Kembangtelon extends Kucing {
 
     public Kembangtelon(String nama, double bobot){
@@ -7,12 +6,12 @@ public class Kembangtelon extends Kucing {
 
     @Override
     public void Gerak(){
-        System.out.println(nama + " berjalan santai");
+        System.out.println(panggilan + " berjalan santai");
     }
 
     @Override
     public void Bersuara(){
-        System.out.println(nama + " meong nyaring");
+        System.out.println(panggilan + " meong nyaring");
     }
     
 }

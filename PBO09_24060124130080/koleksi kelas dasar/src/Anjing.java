@@ -1,4 +1,3 @@
-// subclass Anjing
 public class Anjing extends Anabul {
 
     public Anjing(String nama) {
@@ -6,12 +5,12 @@ public class Anjing extends Anabul {
     }
 
     @Override
-    void Gerak() {
-        System.out.println(nama + " berjalan dengan melata");
+    public void Gerak() {
+        System.out.println(panggilan + " berjalan dengan melata");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println(nama + " bersuara: guk-guk");
+        System.out.println(panggilan + " bersuara: guk-guk");
     }
 }
