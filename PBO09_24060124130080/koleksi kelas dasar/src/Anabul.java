@@ -13,6 +13,7 @@ public abstract class Anabul {
         this.panggilan = nama;
     }
 
+    public abstract double getBobot();
     public abstract void Gerak();
     public abstract void Bersuara();
 }

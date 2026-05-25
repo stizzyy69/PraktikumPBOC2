@@ -18,10 +18,5 @@ public class MTeman {
         T1.gantiNama("John Nullscape", "Dipsy");
         System.out.println(T1.countNama("Jane Doe"));
         T1.showTeman();
-
-        //PIARAAN 
-        System.out.println("\nPIARAAN");
-        Piaraan P1 = new Piaraan();
-        P1.enqueueAnabul(Kucing);
     }
 }

@@ -1,6 +1,13 @@
 public class Burung extends Anabul {
-    public Burung(String nama) {
+    private double bobot;
+
+    public Burung(String nama, double bobot) {
         super(nama);
+        this.bobot = bobot;
+    }
+
+    public double getBobot(){
+        return bobot;
     }
 
     @Override
